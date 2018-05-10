@@ -1,0 +1,57 @@
+﻿@model EnterpriseCad.Models.Contato
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3>Excluir</h3>
+
+<h3>Você tem certeza que deseja remover esse registro?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.nomeContato)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.nomeContato)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.codCPF)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.codCPF)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.telResidencial)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.telResidencial)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.telCelular)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.telCelular)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.email)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.email)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Area)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Area.descArea)
+        </dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="idContato" />
+        <input type="submit" value="Delete" class="btn btn-default" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>

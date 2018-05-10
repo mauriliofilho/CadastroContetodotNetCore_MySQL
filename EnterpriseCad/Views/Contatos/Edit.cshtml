@@ -1,0 +1,61 @@
+﻿@model EnterpriseCad.Models.Contato
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Edit</h2>
+
+<h4>Contato</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="idContato" />
+            <input type="hidden" asp-for="codCPF" />
+            <div class="form-group">
+                <label asp-for="nomeContato" class="control-label"></label>
+                <input asp-for="nomeContato" class="form-control" />
+                <span asp-validation-for="nomeContato" class="text-danger"></span>
+            </div>
+            @*<div class="form-group">
+                <label asp-for="codCPF" class="control-label"></label>
+                <input asp-for="codCPF" class="form-control" />
+                <span asp-validation-for="codCPF" class="text-danger"></span>
+            </div>*@
+            <div class="form-group">
+                <label asp-for="telResidencial" class="control-label"></label>
+                <input asp-for="telResidencial" class="form-control" />
+                <span asp-validation-for="telResidencial" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="telCelular" class="control-label"></label>
+                <input asp-for="telCelular" class="form-control" />
+                <span asp-validation-for="telCelular" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="email" class="control-label"></label>
+                <input asp-for="email" class="form-control" />
+                <span asp-validation-for="email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="idArea" class="control-label"></label>
+                <select asp-for="idArea" class="form-control" asp-items="ViewBag.idArea"></select>
+                <span asp-validation-for="idArea" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

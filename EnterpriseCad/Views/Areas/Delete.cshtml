@@ -1,0 +1,39 @@
+﻿@model EnterpriseCad.Models.Area
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h3>Excluir</h3>
+
+<h3>Você tem certeza que deseja remover esse registro?</h3>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.descArea)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.descArea)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.dataCriacao)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.dataCriacao)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Empresa)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Empresa.nomeEmpresa)
+        </dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="idArea" />
+        <input type="submit" value="Delete" class="btn btn-default" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>

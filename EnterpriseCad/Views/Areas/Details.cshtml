@@ -1,0 +1,37 @@
+﻿@model EnterpriseCad.Models.Area
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Area</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.descArea)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.descArea)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.dataCriacao)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.dataCriacao)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Empresa)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Empresa.nomeEmpresa)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.idArea">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

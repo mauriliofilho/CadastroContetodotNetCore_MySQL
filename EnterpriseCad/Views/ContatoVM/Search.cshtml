@@ -1,0 +1,76 @@
+﻿@model IEnumerable<EnterpriseCad.Models.Contato>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="panel">
+    <div class="panel-heading">
+        <a href="@Url.Action("ExportToExcel")" class="btn btn-success">Excel</a>
+    </div>
+</div>
+    <table class="table table-bordered">
+
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Area.Empresa.codCNPJ)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Area.Empresa.nomeEmpresa)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.nomeContato)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.codCPF)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.telResidencial)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.telCelular)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.email)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Area.descArea)
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Area.Empresa.codCNPJ)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Area.Empresa.nomeEmpresa)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.nomeContato)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.codCPF)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.telResidencial)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.telCelular)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.email)
+                    </td>
+                    <td>
+                        @Html.DisplayNameFor(model => model.Area.descArea)
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+

@@ -1,0 +1,36 @@
+﻿@model EnterpriseCad.Models.Empresa
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3>Detalhes da Empresa -  @Html.DisplayFor(model => model.nomeEmpresa)</h3>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.nomeEmpresa)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.nomeEmpresa)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.codCNPJ)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.codCNPJ)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.dataCriacao)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.dataCriacao)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.idEmpresa">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
