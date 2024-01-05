@@ -1,7 +1,8 @@
 repo_name: mauriliofilho/CadastroContetodotNetCore_MySQL
 report_id: '041539d9dfab1eeff9e273818c7e08a8'
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-30T15:48:30+00:00'
+timestamp: '2024-01-05T08:31:17+00:00'
 requested_by: mauriliofilho
 provider: github
 branch: master
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source_url: https://github.com/mauriliofilho/CadastroContetodotNetCore_MySQL
   detection_source: Repo Metadata
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
@@ -25,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/mauriliofilho/CadastroContetodotNetCore_MySQL
   detection_source: Repo Metadata
 - name: Clojure
   description: A dynamic programming language that targets the Java Virtual Machine
@@ -34,6 +37,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1003/Clojure_300x300.png
+  detection_source_url: https://github.com/mauriliofilho/CadastroContetodotNetCore_MySQL/blob/master/EnterpriseCad/wwwroot/lib/jquery-mask-plugin/Dockerfile
   detection_source: EnterpriseCad/wwwroot/lib/jquery-mask-plugin/Dockerfile
   last_updated_by: Maurilio Filho
   last_updated_on: 2018-05-10 14:18:46.000000000 Z
@@ -46,6 +50,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/mauriliofilho/CadastroContetodotNetCore_MySQL/blob/master/EnterpriseCad/wwwroot/lib/jquery-mask-plugin/Dockerfile
   detection_source: EnterpriseCad/wwwroot/lib/jquery-mask-plugin/Dockerfile
   last_updated_by: Maurilio Filho
   last_updated_on: 2018-05-10 14:18:46.000000000 Z
@@ -58,6 +63,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/mauriliofilho/CadastroContetodotNetCore_MySQL
   detection_source: Repo Metadata
 - name: Ruby
   description: A dynamic, interpreted, open source programming language with a focus
@@ -68,6 +74,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/mauriliofilho/CadastroContetodotNetCore_MySQL
   detection_source: Repo Metadata
 - name: SQL
   description: It is a domain-specific language used in programming
@@ -77,6 +84,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/mauriliofilho/CadastroContetodotNetCore_MySQL/blob/master/Scripts/1-Create
+    Table Empresa.sql
   detection_source: Scripts/1-Create Table Empresa.sql
   last_updated_by: Maurilio Filho
   last_updated_on: 2018-05-10 14:18:46.000000000 Z
@@ -90,6 +99,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/mauriliofilho/CadastroContetodotNetCore_MySQL/blob/master/EnterpriseCad/EnterpriseCad.csproj
   detection_source: EnterpriseCad/EnterpriseCad.csproj
   last_updated_by: Maurilio Filho
   last_updated_on: 2018-05-10 14:18:46.000000000 Z
@@ -104,7 +114,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/6403/default_91fc1f0ee315262794273aa1387eaf8fed8436e6.png
-  detection_source_url: github.com/mauriliofilho/CadastroContetodotNetCore_MySQL/blob/master/EnterpriseCad/EnterpriseCad.csproj
+  detection_source_url: https://github.com/mauriliofilho/CadastroContetodotNetCore_MySQL/blob/master/EnterpriseCad/EnterpriseCad.csproj
   detection_source: EnterpriseCad/EnterpriseCad.csproj
   last_updated_by: Maurilio Filho
   last_updated_on: 2018-05-10 14:18:46.000000000 Z
@@ -119,7 +129,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/11331/asp.net-core.png
-  detection_source_url: github.com/mauriliofilho/CadastroContetodotNetCore_MySQL/blob/master/EnterpriseCad/EnterpriseCad.csproj
+  detection_source_url: https://github.com/mauriliofilho/CadastroContetodotNetCore_MySQL/blob/master/EnterpriseCad/EnterpriseCad.csproj
   detection_source: EnterpriseCad/EnterpriseCad.csproj
   last_updated_by: Maurilio Filho
   last_updated_on: 2018-05-10 14:18:46.000000000 Z
@@ -132,6 +142,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/mauriliofilho/CadastroContetodotNetCore_MySQL/blob/master/EnterpriseCad/wwwroot/lib/jquery-mask-plugin/Dockerfile
   detection_source: EnterpriseCad/wwwroot/lib/jquery-mask-plugin/Dockerfile
   last_updated_by: Maurilio Filho
   last_updated_on: 2018-05-10 14:18:46.000000000 Z
@@ -144,6 +155,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Virtual Machine Platforms & Containers
   image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/mauriliofilho/CadastroContetodotNetCore_MySQL
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -153,6 +165,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/mauriliofilho/CadastroContetodotNetCore_MySQL
   detection_source: Repo Metadata
 - name: JSHint
   description: A Static Code Analysis Tool for JavaScript
@@ -162,6 +175,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/1945/mzh2bRes_400x400.png
+  detection_source_url: https://github.com/mauriliofilho/CadastroContetodotNetCore_MySQL/blob/master/EnterpriseCad/wwwroot/lib/jquery-mask-plugin/package.json
   detection_source: EnterpriseCad/wwwroot/lib/jquery-mask-plugin/package.json
   last_updated_by: Maurilio Filho
   last_updated_on: 2018-05-10 14:18:46.000000000 Z
@@ -173,6 +187,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/mauriliofilho/CadastroContetodotNetCore_MySQL/blob/master/EnterpriseCad/EnterpriseCad.csproj
   detection_source: EnterpriseCad/EnterpriseCad.csproj
   last_updated_by: Maurilio Filho
   last_updated_on: 2018-05-10 14:18:46.000000000 Z
@@ -185,6 +200,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/mauriliofilho/CadastroContetodotNetCore_MySQL/blob/master/EnterpriseCad/wwwroot/lib/jquery-mask-plugin/.travis.yml
   detection_source: EnterpriseCad/wwwroot/lib/jquery-mask-plugin/.travis.yml
   last_updated_by: Maurilio Filho
   last_updated_on: 2018-05-10 14:18:46.000000000 Z
@@ -197,6 +213,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Integrated Development Environment
   image_url: https://img.stackshare.io/service/1451/SR2hUhQN.png
+  detection_source_url: https://github.com/mauriliofilho/CadastroContetodotNetCore_MySQL/blob/master/EnterpriseCad.sln
   detection_source: EnterpriseCad.sln
   last_updated_by: Maurilio Filho
   last_updated_on: 2018-05-10 14:18:46.000000000 Z
@@ -208,6 +225,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/mauriliofilho/CadastroContetodotNetCore_MySQL/blob/master/EnterpriseCad/wwwroot/lib/jquery-mask-plugin/package.json
   detection_source: EnterpriseCad/wwwroot/lib/jquery-mask-plugin/package.json
   last_updated_by: Maurilio Filho
   last_updated_on: 2018-05-10 14:18:46.000000000 Z
@@ -217,6 +235,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/2270/no-img-open-source.png
+  detection_source_url: https://github.com/mauriliofilho/CadastroContetodotNetCore_MySQL/blob/master/EnterpriseCad/wwwroot/lib/jquery-mask-plugin/test/test-for-jquery-1.11.1.html
   detection_source: EnterpriseCad/wwwroot/lib/jquery-mask-plugin/test/test-for-jquery-1.11.1.html
   last_updated_by: Maurilio Filho
   last_updated_on: 2018-05-10 14:18:46.000000000 Z
@@ -230,7 +249,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15835/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
-  detection_source_url: github.com/mauriliofilho/CadastroContetodotNetCore_MySQL/blob/master/EnterpriseCad/wwwroot/lib/jquery-mask-plugin/package-lock.json
+  detection_source_url: https://github.com/mauriliofilho/CadastroContetodotNetCore_MySQL/blob/master/EnterpriseCad/wwwroot/lib/jquery-mask-plugin/package-lock.json
   detection_source: EnterpriseCad/wwwroot/lib/jquery-mask-plugin/package.json
   last_updated_by: Maurilio Filho
   last_updated_on: 2018-05-10 14:18:46.000000000 Z
@@ -263,7 +282,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16236/default_380ae3d73e22c7ca1f42b96479bcd0095dabc0d3.png
-  detection_source_url: github.com/mauriliofilho/CadastroContetodotNetCore_MySQL/blob/master/EnterpriseCad/wwwroot/lib/jquery-mask-plugin/package-lock.json
+  detection_source_url: https://github.com/mauriliofilho/CadastroContetodotNetCore_MySQL/blob/master/EnterpriseCad/wwwroot/lib/jquery-mask-plugin/package-lock.json
   detection_source: EnterpriseCad/wwwroot/lib/jquery-mask-plugin/package.json
   last_updated_by: Maurilio Filho
   last_updated_on: 2018-05-10 14:18:46.000000000 Z
@@ -277,7 +296,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15898/default_59a1b5716eefa3750c20936c3d53ff13a6390ee1.png
-  detection_source_url: github.com/mauriliofilho/CadastroContetodotNetCore_MySQL/blob/master/EnterpriseCad/wwwroot/lib/jquery-mask-plugin/package-lock.json
+  detection_source_url: https://github.com/mauriliofilho/CadastroContetodotNetCore_MySQL/blob/master/EnterpriseCad/wwwroot/lib/jquery-mask-plugin/package-lock.json
   detection_source: EnterpriseCad/wwwroot/lib/jquery-mask-plugin/package.json
   last_updated_by: Maurilio Filho
   last_updated_on: 2018-05-10 14:18:46.000000000 Z
@@ -291,7 +310,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16756/default_6e51a44775c61dcb2888547ad406a2f0cf2c344e.png
-  detection_source_url: github.com/mauriliofilho/CadastroContetodotNetCore_MySQL/blob/master/EnterpriseCad/wwwroot/lib/jquery-mask-plugin/package-lock.json
+  detection_source_url: https://github.com/mauriliofilho/CadastroContetodotNetCore_MySQL/blob/master/EnterpriseCad/wwwroot/lib/jquery-mask-plugin/package-lock.json
   detection_source: EnterpriseCad/wwwroot/lib/jquery-mask-plugin/package.json
   last_updated_by: Maurilio Filho
   last_updated_on: 2018-05-10 14:18:46.000000000 Z
@@ -305,7 +324,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15954/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
-  detection_source_url: github.com/mauriliofilho/CadastroContetodotNetCore_MySQL/blob/master/EnterpriseCad/wwwroot/lib/jquery-mask-plugin/package-lock.json
+  detection_source_url: https://github.com/mauriliofilho/CadastroContetodotNetCore_MySQL/blob/master/EnterpriseCad/wwwroot/lib/jquery-mask-plugin/package-lock.json
   detection_source: EnterpriseCad/wwwroot/lib/jquery-mask-plugin/package.json
   last_updated_by: Maurilio Filho
   last_updated_on: 2018-05-10 14:18:46.000000000 Z
@@ -319,7 +338,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16031/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
-  detection_source_url: github.com/mauriliofilho/CadastroContetodotNetCore_MySQL/blob/master/EnterpriseCad/wwwroot/lib/jquery-mask-plugin/package-lock.json
+  detection_source_url: https://github.com/mauriliofilho/CadastroContetodotNetCore_MySQL/blob/master/EnterpriseCad/wwwroot/lib/jquery-mask-plugin/package-lock.json
   detection_source: EnterpriseCad/wwwroot/lib/jquery-mask-plugin/package.json
   last_updated_by: Maurilio Filho
   last_updated_on: 2018-05-10 14:18:46.000000000 Z
@@ -333,7 +352,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16062/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
-  detection_source_url: github.com/mauriliofilho/CadastroContetodotNetCore_MySQL/blob/master/EnterpriseCad/wwwroot/lib/jquery-mask-plugin/package-lock.json
+  detection_source_url: https://github.com/mauriliofilho/CadastroContetodotNetCore_MySQL/blob/master/EnterpriseCad/wwwroot/lib/jquery-mask-plugin/package-lock.json
   detection_source: EnterpriseCad/wwwroot/lib/jquery-mask-plugin/package.json
   last_updated_by: Maurilio Filho
   last_updated_on: 2018-05-10 14:18:46.000000000 Z
@@ -347,7 +366,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15823/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
-  detection_source_url: github.com/mauriliofilho/CadastroContetodotNetCore_MySQL/blob/master/EnterpriseCad/wwwroot/lib/jquery-mask-plugin/package-lock.json
+  detection_source_url: https://github.com/mauriliofilho/CadastroContetodotNetCore_MySQL/blob/master/EnterpriseCad/wwwroot/lib/jquery-mask-plugin/package-lock.json
   detection_source: EnterpriseCad/wwwroot/lib/jquery-mask-plugin/package.json
   last_updated_by: Maurilio Filho
   last_updated_on: 2018-05-10 14:18:46.000000000 Z
@@ -368,7 +387,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16275/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
-  detection_source_url: github.com/mauriliofilho/CadastroContetodotNetCore_MySQL/blob/master/EnterpriseCad/wwwroot/lib/jquery-mask-plugin/package-lock.json
+  detection_source_url: https://github.com/mauriliofilho/CadastroContetodotNetCore_MySQL/blob/master/EnterpriseCad/wwwroot/lib/jquery-mask-plugin/package-lock.json
   detection_source: EnterpriseCad/wwwroot/lib/jquery-mask-plugin/package.json
   last_updated_by: Maurilio Filho
   last_updated_on: 2018-05-10 14:18:46.000000000 Z
@@ -382,7 +401,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13056/default_ed36ff3c005af695725e05bb15ea5b1f03de31f3.png
-  detection_source_url: github.com/mauriliofilho/CadastroContetodotNetCore_MySQL/blob/master/EnterpriseCad/EnterpriseCad.csproj
+  detection_source_url: https://github.com/mauriliofilho/CadastroContetodotNetCore_MySQL/blob/master/EnterpriseCad/EnterpriseCad.csproj
   detection_source: EnterpriseCad/EnterpriseCad.csproj
   last_updated_by: Maurilio Filho
   last_updated_on: 2018-05-10 14:18:46.000000000 Z
@@ -395,7 +414,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13467/default_9bed24fda7c43823a3e1a93400ac800e54f4524c.png
-  detection_source_url: github.com/mauriliofilho/CadastroContetodotNetCore_MySQL/blob/master/EnterpriseCad/EnterpriseCad.csproj
+  detection_source_url: https://github.com/mauriliofilho/CadastroContetodotNetCore_MySQL/blob/master/EnterpriseCad/EnterpriseCad.csproj
   detection_source: EnterpriseCad/EnterpriseCad.csproj
   last_updated_by: Maurilio Filho
   last_updated_on: 2018-05-10 14:18:46.000000000 Z
@@ -410,7 +429,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13138/default_a057bdad489be3cb053d372a68695da4ac94962d.png
-  detection_source_url: github.com/mauriliofilho/CadastroContetodotNetCore_MySQL/blob/master/EnterpriseCad/EnterpriseCad.csproj
+  detection_source_url: https://github.com/mauriliofilho/CadastroContetodotNetCore_MySQL/blob/master/EnterpriseCad/EnterpriseCad.csproj
   detection_source: EnterpriseCad/EnterpriseCad.csproj
   last_updated_by: Maurilio Filho
   last_updated_on: 2018-05-10 14:18:46.000000000 Z
@@ -424,7 +443,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13477/default_eb78542773998d1500f13778aa04738ef49376bd.png
-  detection_source_url: github.com/mauriliofilho/CadastroContetodotNetCore_MySQL/blob/master/EnterpriseCad/EnterpriseCad.csproj
+  detection_source_url: https://github.com/mauriliofilho/CadastroContetodotNetCore_MySQL/blob/master/EnterpriseCad/EnterpriseCad.csproj
   detection_source: EnterpriseCad/EnterpriseCad.csproj
   last_updated_by: Maurilio Filho
   last_updated_on: 2018-05-10 14:18:46.000000000 Z
@@ -438,7 +457,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13125/default_a057bdad489be3cb053d372a68695da4ac94962d.png
-  detection_source_url: github.com/mauriliofilho/CadastroContetodotNetCore_MySQL/blob/master/EnterpriseCad/EnterpriseCad.csproj
+  detection_source_url: https://github.com/mauriliofilho/CadastroContetodotNetCore_MySQL/blob/master/EnterpriseCad/EnterpriseCad.csproj
   detection_source: EnterpriseCad/EnterpriseCad.csproj
   last_updated_by: Maurilio Filho
   last_updated_on: 2018-05-10 14:18:46.000000000 Z
@@ -452,7 +471,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/14480/default_6f8377afd6199f3b11a4df20454d48f1cb3b2f70.png
-  detection_source_url: github.com/mauriliofilho/CadastroContetodotNetCore_MySQL/blob/master/EnterpriseCad/EnterpriseCad.csproj
+  detection_source_url: https://github.com/mauriliofilho/CadastroContetodotNetCore_MySQL/blob/master/EnterpriseCad/EnterpriseCad.csproj
   detection_source: EnterpriseCad/EnterpriseCad.csproj
   last_updated_by: Maurilio Filho
   last_updated_on: 2018-05-10 14:18:46.000000000 Z
